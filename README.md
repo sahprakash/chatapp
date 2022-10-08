@@ -4,5 +4,5 @@
 #### This is a simple Chat App made with node.js and socket.io
 #### Make sure you have node.js installed in your system. 
 #### No need to run npm install.
-#### This app will give you a different overview of Chatting Environment.
+
 
