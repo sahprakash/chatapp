@@ -1,7 +1,7 @@
 :root{
-    --orange: hsl(31, 77%, 52%);
-    --cyan: hsl(184, 100%, 22%);
-    --dark-cyan: hsl(179, 100%, 13%);
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
 }
 
 *{
@@ -20,7 +20,7 @@ body{
     padding: 30px;
 }
 .bright-orange{
-    background-color: var(--orange);
+    background-color: var(--bright-orange);
 color: #fff;
 border-radius: 10px 10px 0 0;
 }
@@ -36,15 +36,15 @@ border-radius: 10px 10px 0 0;
 
 
 .bright-orange .btn{
-    color: var(--orange);
+    color: var(--bright-orange);
 }
 
 .dark-cyan .btn{
-    color: var(--cyan);
+    color: var(--dark-cyan);
 }
 
 .very-dark-cyan .btn{
-    color: var(--dark-cyan);
+    color: var(--very-dark-cyan);
 }
 
 .btn:hover{
